@@ -1,4 +1,4 @@
-<script language="javascript" runat="server">
+<%
 "use strict";
 var sjcl = {
     cipher: {},
@@ -3983,9 +3983,9 @@ function utf8to16(str) {
 }
 
 
-</script>
+%>
 
-<%
+<script language="vbscript" runat="server">
 '
 '	VBS JSON 2.0.3
 '	Copyright (c) 2009 Tuðrul Topuz
@@ -4020,4 +4020,4 @@ Function JSONencode(str)
 	Next
 	JSONencode = Join(haystack, "")
 End Function
-%>
+</script>
