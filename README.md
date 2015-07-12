@@ -57,6 +57,8 @@ If you want to encode some non-ASCII characters, you should use function ``JSONe
 var token = new jwt.WebToken('{"name": "'+JSONencode("你好世界")+'"}', "{\"typ\":\"JWT\",\"alg\":\"HS256\"}");
 ```
 
+For other usage, see ``tests/index.asp``.
+
 ## Supported algorithm
 
 ### Test Encodings
